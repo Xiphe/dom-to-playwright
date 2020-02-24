@@ -5,10 +5,13 @@ import { createSelectorKey } from './createSelectorKey';
 
 export default async function domToPlayWright(
   page: Page,
-  node: Document | HTMLElement,
+  node?: Document | HTMLElement,
 ) {
   let selectorKey = createSelectorKey();
-  await update(page, node, selectorKey);
+
+  if (node) {
+    await update(page, node, selectorKey);
+  }
 
   return {
     select(element: HTMLElement): string {
