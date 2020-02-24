@@ -1,6 +1,6 @@
 {
   "name": "dom-to-playwright",
-  "version": "0.0.0-development",
+  "version": "0.1.0",
   "description": "move jsdom snapshots into a real browser",
   "main": "dist/index.js",
   "scripts": {
