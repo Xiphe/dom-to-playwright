@@ -1,6 +1,8 @@
 import { chromium, Browser, Page } from 'playwright';
 import domToPlaywright from './domToPlaywright';
 
+global.setImmediate = global.setImmediate || setTimeout;
+
 describe('domToPlaywright', () => {
   let browser: Browser;
   let page: Page;
