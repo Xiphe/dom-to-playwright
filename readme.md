@@ -1,5 +1,10 @@
 # dom-to-playwright
 
+[![Release](https://github.com/Xiphe/dom-to-playwright/actions/workflows/release.yml/badge.svg)](https://github.com/Xiphe/dom-to-playwright/actions/workflows/release.yml)
+[![codecov](https://codecov.io/gh/Xiphe/dom-to-playwright/branch/main/graph/badge.svg?token=9U2N1I98OW)](https://codecov.io/gh/Xiphe/dom-to-playwright)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+
+
 Copy a snapshot of a document or element into a playwright page instance.
 Select the counterpart of a sub-element within the playwright page.
 
