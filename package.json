@@ -41,6 +41,6 @@
     "playwright": "1.34.3",
     "prettier": "2.8.8",
     "ts-jest": "29.1.0",
-    "typescript": "5.0.4"
+    "typescript": "5.1.6"
   }
 }
