@@ -22,7 +22,7 @@ jobs:
       - run: npx playwright install-deps
       - run: npx playwright install
       - run: npm run test -- --coverage
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
       - run: |
           npx semantic-release
         env:
